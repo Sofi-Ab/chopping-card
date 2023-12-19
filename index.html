@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoopping cards</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        
+        <a href="#" class="logo">
+            <img src="./images/logo.avif" alt="">
+        </a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Store</a></li>
+        </ul>
+        <div class="navbar"><a href="#about" tabindex="-1"><box-icon id="tel" name='phone-call'></box-icon>227 969 879
+                98</a>
+        </div>
+        <!-- icones for buy-->
+        <div class="header-icon">
+            <div>
+                <i class="bx bx-cart-alt" id=""></i>
+            </div>
+        </div>
+        <!-- contenu du pagnier-->
+        <div class="cart-box">
+            <!-- article unitaire-->
+            <div class="tille">Your cart</div>
+            <div class="box">
+                <img src="images/cuiere.jpeg" alt="img">
+                <div class="content">
+                    <h3 class="card-box">cuierre</h3>
+                    <div class="total-price">$200</div>
+                    <input type="number" value="" class="cart-quantity">
+                </div>
+               <button id="cart-remove"> <i class="bx bxs-trash-alt "></i></button> 
+            </div>
+            <!--Total-->
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">$0</div>
+            </div>
+            <div class="close-buy-btn">
+                <button type="button" class="btn-buy">buy Now</button>
+                    <!--cart close--> 
+               <button><i class="bx bx-x" id="cart-close" ></i></button>
+        
+            </div>
+        </div>
+        <!-- search box -->
+        <div class="search-box">
+            <input type="search" name="" id="search-box" placeholder="recherche">
+        </div>
+
+    </header>
+    <!-- home -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Welcome <br>to sofi<br>kitchen utensil </h1>
+            <a href="#about" class="btn1">Explorer</a>
+        </div>
+        <div class="home-img">
+            <img src="./images/img11.avif" alt="">
+        </div>
+    </section>
+    <!-- section about -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/img.avif" alt="">
+        </div>
+        <div class="about-text">
+            <h2>Our history</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae accusantium asperiores iusto, sint a
+                tenetur sequi numquam dolorum ex voluptatibus ab perspiciatis rerum libero, omnis sit dolorem natus
+                recusandae velit.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus a, soluta non illo doloribus tenetur
+                accusantium nostrum qui corporis velit veniam repellendus earum quisquam accusamus iusto esse. Harum,
+                unde cumque.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio distinctio, atque nihil fuga perferendis
+                .</p>
+        </div>
+    </section>
+    <!-- section product -->
+    <section class="products" id="products">
+        <div class="heading">
+            <h2> Nos artiles populaires</h2>
+
+           <!-- input de recherche--> 
+            <div class="recherche">
+                <button><i class="bx bx-search" id="serche-icon"></i></button>
+                <input type="search" class="card-input" id="search" placeholder="Article" value="" >  
+            </div>
+            <div class="boutton">
+                <a href="#products" id="btn-ensemble" class="btn">Ensemble</a>
+                <a href="#products" id="btn-fouet" class="btn">Fouet</a>
+                <a href="#products" id="btn-poelle" class="btn">Poelles</a>
+                <a href="#products" id="btn-bois" class="btn">Bois</a>
+            </div>
+        </div>
+        <!-- container -->
+        <div id="produit" class="product-container">
+            
+        </div>
+    </section>
+
+    <section class="footer">
+
+    </section>
+>
+    <script src="data.js"></script>
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+
+</html>
